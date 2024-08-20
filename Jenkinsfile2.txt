@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+    environment {
+        dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
+    }
+    stages {
+        stage('Checkout Stage') {
+            steps {
+                git credentialsId: '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', url: 'https://github.com/AmitKumarHanu/New-KYIS-2023.git', branch: 'main'
+            }
+        }
+        stage('Build Stage') {
+            steps {
+                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Afrismart_peipeline\\Afri_Central_Code.sln --configuration Release'
+            }
+        }
+        stage('Test Stage') {
+            steps {
+                bat 'dotnet test %WORKSPACE%\\Afrismart_peipeline\\Afri_Central_Code\\Afri_Central_Code.csproj'
+            }
+        }
+        stage("Release Stage") {
+            steps {
+                bat 'dotnet build %WORKSPACE%\\Afri_Central_Code.sln /p:PublishProfile=" %WORKSPACE%\\Afrismart_peipeline\\Afri_Central_Code\\Properties\\PublishProfiles\\FolderProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+            }
+        }
+
+
+        stage('Deploy Stage') {
+            steps {
+                //Deploy application on IIS
+                bat 'net stop "w3svc"'
+                bat '"C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe" -verb:sync -source:package="%WORKSPACE%\\Afrismart_peipeline\\Afri_Central_Code\\\\bin\\Debug\\net6.0\\JenkinsWebApplicationDemo.zip" -dest:auto -setParam:"IIS Web Application Name"="Demo.Web" -skip:objectName=filePath,absolutePath=".\\\\PackagDemoeTmp\\\\Web.config$" -enableRule:DoNotDelete -allowUntrusted=true'
+                bat 'net start "w3svc"'
+            }
+        }
+    }
+}

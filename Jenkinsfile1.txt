@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+     stages {
+        stage('Restore packages'){
+           steps{
+               sh 'dotnet restore C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeLine\\Afri_Central_Code.sln'
+            }
+         }
+        stage('Clean'){
+           steps{
+               sh 'dotnet clean C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeLine\\Afri_Central_Code.sln --configuration Release'
+            }
+         }
+        stage('Build'){
+           steps{
+               sh 'dotnet build C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeLine\\Afri_Central_Code.sln --configuration Release --no-restore'
+            }
+         }
+        stage('Publish'){
+             steps{
+               sh 'dotnet publish C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeLine\\Afri_Central_Code.csproj --configuration Release --no-restore'
+             }
+        }
+        stage('Deploy'){
+             steps{
+               sh '''for pid in $(lsof -t -i:9090); do
+                       kill -9 $pid
+               done'''
+               sh 'cd C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeLine\\Afri_Central_Code\\bin\\Release\\publish\\'
+               sh 'nohup dotnet Afri_Central_Code.dll --urls="http://aspcore.local:8092" --ip="127.0.0.1" --port=8092 --no-restore > /dev/null 2>&1 &'
+             }
+        }
+    }
+}

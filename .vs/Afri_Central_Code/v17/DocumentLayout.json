@@ -1,12 +1,55 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\C Drive\\Afrismart\\Afrismart Application\\AfriCentral\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFB399F-5CAF-4122-8C9A-F9618FE88953}|Afri_Central_Code\\Afri_Central_Code.csproj|d:\\c drive\\afrismart\\afrismart application\\africentral\\afri_central_code\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DFB399F-5CAF-4122-8C9A-F9618FE88953}|Afri_Central_Code\\Afri_Central_Code.csproj|solutionrelative:afri_central_code\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Afri_Central_Code||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFB399F-5CAF-4122-8C9A-F9618FE88953}|Afri_Central_Code\\Afri_Central_Code.csproj|d:\\c drive\\afrismart\\afrismart application\\africentral\\afri_central_code\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\C Drive\\Afrismart\\Afrismart Application\\AfriCentral\\Afri_Central_Code\\Web.config",
+              "RelativeDocumentMoniker": "Afri_Central_Code\\Web.config",
+              "ToolTip": "D:\\C Drive\\Afrismart\\Afrismart Application\\AfriCentral\\Afri_Central_Code\\Web.config",
+              "RelativeToolTip": "Afri_Central_Code\\Web.config",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-20T15:55:50.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Afri_Central_Code",
+              "DocumentMoniker": "D:\\C Drive\\Afrismart\\Afrismart Application\\AfriCentral\\Afri_Central_Code\\Afri_Central_Code.csproj",
+              "RelativeDocumentMoniker": "Afri_Central_Code\\Afri_Central_Code.csproj",
+              "ToolTip": "D:\\C Drive\\Afrismart\\Afrismart Application\\AfriCentral\\Afri_Central_Code\\Afri_Central_Code.csproj",
+              "RelativeToolTip": "Afri_Central_Code\\Afri_Central_Code.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-20T15:49:28.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -294,8 +294,6 @@ F:\F Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afr
 F:\F Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.csproj.CoreCompileInputs.cache
 F:\F Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.csproj.CopyComplete
 F:\F Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.csproj.AssemblyReference.cache
-D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afri_Central_Code.dll
-D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afri_Central_Code.pdb
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\roslyn\csc.exe
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -308,6 +306,9 @@ D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\ros
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\roslyn\vbc.exe
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\roslyn\VBCSCompiler.exe
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\roslyn\VBCSCompiler.exe.config
+D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afri_Central_Code.dll.config
+D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afri_Central_Code.dll
+D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afri_Central_Code.pdb
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Antlr3.Runtime.dll
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\FontAwesome.dll
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Microsoft.AspNet.FriendlyUrls.dll
@@ -317,10 +318,8 @@ D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Mic
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\System.Web.Optimization.dll
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\WebGrease.dll
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Antlr3.Runtime.pdb
-D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.dll
-D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.pdb
-D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Afri_Central_Code.dll.config
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.csproj.AssemblyReference.cache
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.csproj.CoreCompileInputs.cache
 D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Cen.B6BD939A.Up2Date
-D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.dll
+D:\C Drive\Afrismart\Afrismart Application\AfriCentral\Afri_Central_Code\obj\Debug\Afri_Central_Code.pdb
